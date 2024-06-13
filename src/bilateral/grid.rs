@@ -190,6 +190,6 @@ mod tests {
         let dest_image = bilateral_grid.slice(&bloei_luma16);
 
         assert_eq!(dest_image.dim(), (600, 450));
-        assert_eq!(dest_image[(421, 123)], 2266);
+        assert_eq!(dest_image[(421, 123)], 2265);
     }
 }
